@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 830" font-family="Inter, DejaVu Sans, Arial, sans-serif" role="img" aria-label="Diagramme de composants : API backend"><defs><marker id="c3-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker></defs>
+<rect width="1100" height="830" fill="#FFFFFF"/>
+<text x="20" y="32.0" font-size="22" font-weight="700" fill="#0F172A" text-anchor="start" font-family="Space Grotesk, Inter, sans-serif">Diagramme de composants : API backend</text>
+<text x="20" y="54.0" font-size="13.5" font-weight="400" fill="#475569" text-anchor="start" >C4 niveau 3 · Les six modules du monolithe modulaire (un module par bounded context)</text>
+<rect x="170" y="80" width="700" height="630" rx="12" fill="none" stroke="#475569" stroke-width="1.6" stroke-dasharray="8 5" opacity="1"/>
+<text x="185" y="102.0" font-size="13.5" font-weight="700" fill="#475569" text-anchor="start" >API backend [Conteneur : Java 21, Spring Boot]</text>
+<rect x="10" y="330" width="100" height="110" rx="10" fill="#0F766E" stroke="#0F766E" stroke-width="2" opacity="1"/>
+<text x="60.0" y="355.0" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Application</text>
+<text x="60.0" y="371.2" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle" >web</text>
+<text x="60.0" y="388.2" font-size="11.5" font-weight="400" fill="#CCFBF1" text-anchor="middle" font-style="italic">[Conteneur]</text>
+<rect x="185" y="115" width="115" height="585" rx="10" fill="#E0E7FF" stroke="#4338CA" stroke-width="2" opacity="1"/>
+<text x="242" y="150.0" font-size="14" font-weight="700" fill="#0F172A" text-anchor="middle" >Couche REST</text>
+<text x="242" y="167.5" font-size="14" font-weight="700" fill="#0F172A" text-anchor="middle" >et sécurité</text>
+<text x="242" y="196.0" font-size="11" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">[Composant :</text>
+<text x="242" y="209.8" font-size="11" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">Spring MVC,</text>
+<text x="242" y="223.5" font-size="11" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">Spring Security]</text>
+<text x="242" y="262.0" font-size="11.5" font-weight="400" fill="#0F172A" text-anchor="middle" >Authentifie,</text>
+<text x="242" y="276.4" font-size="11.5" font-weight="400" fill="#0F172A" text-anchor="middle" >repère l&#x27;école</text>
+<text x="242" y="290.8" font-size="11.5" font-weight="400" fill="#0F172A" text-anchor="middle" >(tenant), valide,</text>
+<text x="242" y="305.1" font-size="11.5" font-weight="400" fill="#0F172A" text-anchor="middle" >traduit les</text>
+<text x="242" y="319.5" font-size="11.5" font-weight="400" fill="#0F172A" text-anchor="middle" >erreurs en</text>
+<text x="242" y="333.9" font-size="11.5" font-weight="400" fill="#0F172A" text-anchor="middle" >RFC 9457.</text>
+<path d="M110,385 L185,385" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="106.4" y="331.2" width="81.3" height="33.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="147" y="343.2" font-size="11" font-weight="400" fill="#0F172A" text-anchor="middle" >Appelle</text>
+<text x="147" y="357.0" font-size="11" font-weight="400" fill="#0F172A" text-anchor="middle" >[HTTPS/JSON]</text>
+<rect x="405" y="118" width="320" height="86" rx="10" fill="#E0E7FF" stroke="#4338CA" stroke-width="2" opacity="1"/>
+<text x="565.0" y="145.0" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle" >Offres</text>
+<text x="565.0" y="165.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >Importe les offres officielles (anti-corruption),</text>
+<text x="565.0" y="180.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >publie celles des entreprises, les réserve à une</text>
+<text x="565.0" y="195.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >promo.</text>
+<path d="M300,161 L405,161" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="327.2" y="136.4" width="49.7" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="352" y="147.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >/offres</text>
+<rect x="405" y="212" width="320" height="86" rx="10" fill="#E0E7FF" stroke="#4338CA" stroke-width="2" opacity="1"/>
+<text x="565.0" y="239.0" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle" >Profil et assistant</text>
+<text x="565.0" y="259.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >Critères de recherche de l&#x27;étudiant, lettres de</text>
+<text x="565.0" y="274.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >motivation via l&#x27;assistant IA.</text>
+<path d="M300,255 L405,255" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="298.8" y="230.4" width="106.4" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="352" y="241.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >/profil, /lettres</text>
+<rect x="405" y="306" width="320" height="86" rx="10" fill="#FEF3C7" stroke="#B45309" stroke-width="2" opacity="1"/>
+<text x="565.0" y="333.0" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle" >Suivi de promo</text>
+<text x="565.0" y="353.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >Calcule le statut global, lève les alertes, rédige</text>
+<text x="565.0" y="368.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >la synthèse, confirme les placements.</text>
+<path d="M300,349 L405,349" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="296.0" y="324.4" width="112.1" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="352" y="335.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >/promos/{id}/suivi</text>
+<rect x="405" y="400" width="320" height="86" rx="10" fill="#F1F5F9" stroke="#64748B" stroke-width="2" opacity="1"/>
+<text x="565.0" y="427.0" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle" >Notifications</text>
+<text x="565.0" y="447.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >Envoie les e-mails à partir des événements reçus.</text>
+<text x="352" y="438.0" font-size="10.5" font-weight="400" fill="#475569" text-anchor="middle" >pas de route</text>
+<text x="352" y="451.1" font-size="10.5" font-weight="400" fill="#475569" text-anchor="middle" >REST</text>
+<rect x="405" y="494" width="320" height="86" rx="10" fill="#E0E7FF" stroke="#4338CA" stroke-width="2" opacity="1"/>
+<text x="565.0" y="521.0" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle" >Candidatures</text>
+<text x="565.0" y="541.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >Pipeline de l&#x27;étudiant, machine à états,</text>
+<text x="565.0" y="556.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >déclaration de placement.</text>
+<path d="M300,537 L405,537" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="310.1" y="512.4" width="83.7" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="352" y="523.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >/candidatures</text>
+<rect x="405" y="588" width="320" height="86" rx="10" fill="#F1F5F9" stroke="#64748B" stroke-width="2" opacity="1"/>
+<text x="565.0" y="615.0" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle" >Organisations et accès</text>
+<text x="565.0" y="635.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >Écoles, promotions, invitations, comptes, rôles.</text>
+<text x="565.0" y="650.0" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" >Isole les données par école.</text>
+<path d="M300,631 L405,631" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="287.5" y="606.4" width="129.1" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="352" y="617.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >/ecoles, /invitations</text>
+<rect x="765" y="108" width="50" height="596" rx="8" fill="#EEF2FF" stroke="#4338CA" stroke-width="1.8" opacity="1"/>
+<text transform="translate(796,590) rotate(-90)" text-anchor="middle" font-size="13" font-weight="700" fill="#0F172A">Bus d'événements interne</text>
+<text transform="translate(781,590) rotate(-90)" text-anchor="middle" font-size="10.5" font-style="italic" fill="#334155">[Spring ApplicationEvent]</text>
+<path d="M725,161 L765,161" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#c3-arr)" marker-start="url(#c3-arr)"/>
+<path d="M725,255 L765,255" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#c3-arr)" marker-start="url(#c3-arr)"/>
+<path d="M725,349 L765,349" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#c3-arr)" marker-start="url(#c3-arr)"/>
+<path d="M725,443 L765,443" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#c3-arr)" marker-start="url(#c3-arr)"/>
+<path d="M725,537 L765,537" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#c3-arr)" marker-start="url(#c3-arr)"/>
+<path d="M725,631 L765,631" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#c3-arr)" marker-start="url(#c3-arr)"/>
+<rect x="930" y="108" width="160" height="58" rx="10" fill="#E2E8F0" stroke="#64748B" stroke-width="1.6" stroke-dasharray="6 4" opacity="1"/>
+<text x="1010.0" y="132.5" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle" >La Bonne Alternance</text>
+<text x="1010" y="160.0" font-size="10.5" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">[Système externe]</text>
+<rect x="930" y="178" width="160" height="58" rx="10" fill="#E2E8F0" stroke="#64748B" stroke-width="1.6" stroke-dasharray="6 4" opacity="1"/>
+<text x="1010.0" y="202.5" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle" >France Travail,</text>
+<text x="1010.0" y="218.1" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle" >Offres d&#x27;emploi</text>
+<text x="1010" y="230.0" font-size="10.5" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">[Système externe]</text>
+<rect x="930" y="248" width="160" height="58" rx="10" fill="#E2E8F0" stroke="#64748B" stroke-width="1.6" stroke-dasharray="6 4" opacity="1"/>
+<text x="1010.0" y="272.5" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle" >API Géo</text>
+<text x="1010" y="300.0" font-size="10.5" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">[Système externe]</text>
+<rect x="930" y="318" width="160" height="58" rx="10" fill="#E2E8F0" stroke="#64748B" stroke-width="1.6" stroke-dasharray="6 4" opacity="1"/>
+<text x="1010.0" y="342.5" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle" >Fournisseur LLM</text>
+<text x="1010" y="370.0" font-size="10.5" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">[Système externe]</text>
+<rect x="930" y="400" width="160" height="58" rx="10" fill="#E2E8F0" stroke="#64748B" stroke-width="1.6" stroke-dasharray="6 4" opacity="1"/>
+<text x="1010.0" y="424.5" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle" >Service d&#x27;e-mail</text>
+<text x="1010" y="452.0" font-size="10.5" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">[Système externe]</text>
+<path d="M725,140 L930,137" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="810.3" y="117.4" width="123.4" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="872" y="128.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >Importe [HTTPS/JSON]</text>
+<path d="M725,192 L930,207" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="810.3" y="207.4" width="123.4" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="872" y="218.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >Importe [HTTPS/JSON]</text>
+<path d="M725,252 L930,277" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="810.3" y="251.4" width="123.4" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="872" y="262.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >Géocode [HTTPS/JSON]</text>
+<path d="M725,285 L930,340" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="821.6" y="301.4" width="100.7" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="872" y="312.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >Rédige la lettre</text>
+<path d="M725,350 L930,354" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="816.0" y="358.4" width="112.1" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="872" y="369.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >Rédige la synthèse</text>
+<path d="M725,440 L930,429" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<rect x="813.1" y="414.4" width="117.7" height="19.1" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="872" y="425.9" font-size="10.5" font-weight="400" fill="#0F172A" text-anchor="middle" >Envoie [HTTPS/SMTP]</text>
+<text x="185" y="733.0" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start" >Persistance : chaque module lit et écrit uniquement son propre schéma PostgreSQL (conteneur « Base de données », niveau 2).</text>
+<text x="185" y="747.4" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start" >La flèche vers la base est valable pour chacun des six modules ; elle est omise ici pour la lisibilité.</text>
+<line x1="20" y1="762" x2="1080" y2="762" stroke="#CBD5E1" stroke-width="1"/>
+<text x="20" y="780.0" font-size="13" font-weight="700" fill="#0F172A" text-anchor="start" >Légende</text>
+<rect x="120.0" y="769" width="34" height="16" rx="4" fill="#E0E7FF" stroke="#4338CA" stroke-width="1.5"/>
+<text x="164.0" y="782.0" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start" >Module (composant)</text>
+<rect x="360.0" y="769" width="34" height="16" rx="4" fill="#FEF3C7" stroke="#B45309" stroke-width="1.5"/>
+<text x="404.0" y="782.0" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start" >Module du cœur de métier</text>
+<rect x="600.0" y="769" width="34" height="16" rx="4" fill="#F1F5F9" stroke="#64748B" stroke-width="1.5"/>
+<text x="644.0" y="782.0" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start" >Module générique</text>
+<rect x="840.0" y="769" width="34" height="16" rx="4" fill="#E2E8F0" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="884.0" y="782.0" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start" >Système externe</text>
+<rect x="120.0" y="797" width="34" height="16" rx="4" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="164.0" y="810.0" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start" >Frontière du conteneur</text>
+<line x1="360.0" y1="805" x2="394.0" y2="805" stroke="#334155" stroke-width="1.7" marker-end="url(#c3-arr)"/>
+<text x="404.0" y="810.0" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start" >Appel synchrone</text>
+<line x1="600.0" y1="805" x2="634.0" y2="805" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#c3-arr)"/>
+<text x="644.0" y="810.0" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start" >Événement asynchrone (publie et écoute)</text></svg>
