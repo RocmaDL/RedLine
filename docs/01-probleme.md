@@ -4,7 +4,7 @@
 
 > **Nom du projet**
 >
-> **Passerelle** (nom de travail, à vérifier avant tout usage commercial)
+> **RedLine** (disponibilité du nom, marque et domaine, à vérifier avant tout usage commercial)
 
 > **Équipe**
 >

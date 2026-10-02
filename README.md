@@ -1,11 +1,11 @@
-# Passerelle
+# RedLine
 
 > Le suivi d'alternance et de stage pour les écoles privées post-bac, sans exposer le détail de la recherche de chaque étudiant.
 
 Projet fil rouge « Architecture logicielle », phase R&D. Auteur : Rocma (équipe d'une personne). Statut : **brouillon de recherche du 1er octobre 2026**, le code arrive en phase 4.
 
 > [!NOTE]
-> « Passerelle » est un **nom de travail** : sa disponibilité (marque, domaine) n'est pas vérifiée. Le dépôt s'appelle `RedLine`.
+> Le nom **RedLine** (choisi par l'auteur le 2 octobre 2026, à la place du nom de travail « Passerelle ») n'a pas fait l'objet d'une vérification de disponibilité (marque, domaine).
 
 ## Le produit
 

@@ -30,7 +30,7 @@ Ces points n'ont pas été demandés explicitement. L'IA les a tranchés pour av
 
 | Décision | Où | Statut |
 |---|---|---|
-| Nom de travail « Passerelle » | Couverture, tout le dossier | À changer librement ; disponibilité non vérifiée |
+| Nom de travail « Passerelle », **remplacé par « RedLine » le 2 octobre** (choix de l'auteur) | Tout le dépôt | Disponibilité du nom non vérifiée |
 | L'étudiant **déclare** un placement, le référent le **confirme** | [Chapitre 02](02-domaine.md) §4, EF-16 | Hypothèse jamais testée avec une école ou un étudiant |
 | Six bounded contexts et leur classement (cœur, support, générique) | [Chapitre 02](02-domaine.md) | Proposition ; défendable à la revue |
 | Scalingo en premier choix, Clever Cloud non comparé faute de prix lisibles | ADR-002 | Prix Scalingo relevés sur sa page ; lieu du centre de données à confirmer |

@@ -14,7 +14,7 @@ La charte est le contrat de l'équipe et de l'IA. Elle est **précise** (pas de 
 ## 2. Organisation des dossiers
 
 ```text
-passerelle/
+redline/
 ├── AGENTS.md                  # la charte, lue par l'IA et par l'équipe
 ├── CLAUDE.md                  # une ligne : @AGENTS.md
 ├── README.md                  # comment lancer le projet
@@ -28,8 +28,8 @@ passerelle/
 ├── backend/                   # Java 21, Spring Boot, Maven
 │   ├── pom.xml
 │   └── src/
-│       ├── main/java/fr/passerelle/
-│       │   ├── PasserelleApplication.java
+│       ├── main/java/fr/redline/
+│       │   ├── RedLineApplication.java
 │       │   ├── partage/       # noyau technique minimal, sans logique métier
 │       │   ├── organisations/ ┐
 │       │   ├── profil/        │  un package racine par bounded context,
@@ -40,7 +40,7 @@ passerelle/
 │       │                           infrastructure/  adaptateurs : web, persistence,
 │       │                                            source, llm, mail, scheduling
 │       ├── main/resources/db/migration/   # V001__offres_creer_schema.sql …
-│       └── test/java/fr/passerelle/       # ArchitectureTest + un dossier de tests par module
+│       └── test/java/fr/redline/       # ArchitectureTest + un dossier de tests par module
 └── frontend/                  # Next.js, TypeScript
     ├── package.json  .dependency-cruiser.cjs
     └── src/

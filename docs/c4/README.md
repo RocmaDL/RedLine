@@ -25,7 +25,7 @@ Un élément du niveau supérieur se retrouve **à l'identique** au niveau infé
 | Niveau 1 : contexte | Niveau 2 : conteneurs | Niveau 3 : composants |
 |---|---|---|
 | Étudiant, Référent de l'école, Entreprise partenaire | Les mêmes trois personnes | (hors du conteneur, représentées par l'Application web) |
-| **Passerelle** (système) | Application web, API backend, Base de données | — |
+| **RedLine** (système) | Application web, API backend, Base de données | — |
 | La Bonne Alternance, France Travail, LLM, e-mail, API Géo | Les mêmes cinq systèmes externes | Les mêmes cinq, reliés aux modules qui les appellent |
 | Flèche « Importe les offres » | API backend → La Bonne Alternance et France Travail | Module **Offres** → La Bonne Alternance et France Travail |
 | Flèche « Demande des brouillons » | API backend → Fournisseur LLM | Modules **Profil et assistant** et **Suivi de promo** → Fournisseur LLM |
