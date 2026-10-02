@@ -26,6 +26,9 @@
 | **Étudiant en recherche d'alternance ou de stage** | Mal accompagné, peu d'offres près de chez lui, candidatures éparpillées. | Non (gratuit) |
 | **Entreprise partenaire de l'école** | Reçoit des candidatures de mauvaise qualité, publier est lourd. | Non en V1 `Hypothèse` |
 
+> [!TIP]
+> **Analyse de marché détaillée** : taille de la cible, concurrents, prix, réglementation, risques et entretiens à mener dans [analyse-marche.md](analyse-marche.md).
+
 ### Ordre de grandeur
 
 > **846 700**

@@ -27,6 +27,7 @@ Projet fil rouge « Architecture logicielle », phase R&D. Auteur : Rocma (équi
 | Livrable | Fichier |
 |---|---|
 | Fiche problème | [docs/01-probleme.md](docs/01-probleme.md) |
+| Analyse de marché (taille, concurrents, réglementation, risques) | [docs/analyse-marche.md](docs/analyse-marche.md) |
 | Domaine : événements, bounded contexts, glossaire, context map | [docs/02-domaine.md](docs/02-domaine.md) |
 | Exigences fonctionnelles et non fonctionnelles chiffrées | [docs/03-exigences.md](docs/03-exigences.md) |
 | Décisions d'architecture (ADR-001 à 005) | [docs/adr/](docs/adr/README.md) |
@@ -43,7 +44,7 @@ Les chiffres de marché viennent de sources citées dans la [fiche problème](do
 
 - **Phase 4** : arborescence `backend/` et `frontend/`, test d'architecture ArchUnit, intégration continue, squelette du module Offres.
 - Validation de l'idée et de la taille de l'équipe par le formateur.
-- Entretiens avec des écoles pour confirmer les hypothèses.
+- Entretiens avec des écoles pour confirmer les hypothèses, et réponse écrite de la DGEFP sur les conditions de l'API La Bonne Alternance ([analyse de marché](docs/analyse-marche.md), §4 et §6).
 - Relecture personnelle du [journal IA](docs/journal-ia.md), reconstitué à partir de la conversation de travail.
 
 ## Ce que nous ne ferons pas en V1
